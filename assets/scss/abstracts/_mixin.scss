@@ -1,0 +1,19 @@
+
+// font mixin
+@mixin fonts($fname,$fsize,$fline, $fweight,$fcolor) {
+    font-family: $fname;
+    font-size: $fsize;
+    line-height: $fline;
+    font-weight: $fweight;
+    color: $fcolor;
+}
+
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {@content}
+    &:-moz-placeholder           {@content}
+    &::-moz-placeholder          {@content}
+    &:-ms-input-placeholder      {@content}  
+}
+
+

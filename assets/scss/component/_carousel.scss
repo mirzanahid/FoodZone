@@ -1,0 +1,851 @@
+#feedback-home {
+    padding-bottom: 120px;
+
+    .top-slider {
+        position: relative;
+        padding-left: 110px;
+        margin-bottom: 60px;
+
+
+        .inner-elements {
+            padding-bottom: 50px;
+
+            .feedback-test {
+                color: $color0;
+                width: 1265px;
+                position: relative;
+                z-index: 1;
+            }
+
+            &::after {
+                background: url(../images/homepage/qoute.svg) no-repeat right;
+                width: 282px;
+                height: 234px;
+                position: absolute;
+                top: 0;
+                right: 110px;
+                content: '';
+            }
+        }
+    }
+
+    .bottom-slider {
+        .feedback-profile {
+            padding: 0 110px;
+            height: 200px;
+
+            .profile {
+                display: flex;
+
+                .profile-img {
+                    width: 170px;
+                    height: 170px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .description {
+                    padding-top: 45px;
+                    padding-left: 60px;
+
+                    h5 {
+                        color: $color0;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+
+        }
+
+        .prevbtn {
+            position: absolute;
+            top: 80px;
+            right: 200px;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .nextbtn {
+            position: absolute;
+            top: 80px;
+            right: 100px;
+            z-index: 1;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 379.98px) {
+    #feedback-home {
+        padding-bottom: 0;
+
+        .top-slider {
+            padding-left: 0;
+            margin-bottom: 30px;
+
+            .inner-elements {
+                padding-bottom: 50px;
+
+                .feedback-test {
+                    width: auto;
+                }
+
+                &::after {
+                    top: -40px;
+                    right: 40px;
+                    background-size: 150px;
+                }
+            }
+        }
+
+        .bottom-slider {
+            .feedback-profile {
+                padding: 0 0;
+                height: 200px;
+
+                .profile {
+                    align-items: center;
+
+                    .profile-img {
+                        width: 90px;
+                        height: 90px;
+                    }
+
+                    .description {
+                        padding-top: 0;
+                        padding-left: 20px;
+                    }
+                }
+            }
+
+            .prevbtn {
+                top: 130px;
+                right: 200px;
+                width: 35px;
+            }
+
+            .nextbtn {
+                top: 130px;
+                right: 100px;
+                width: 35px;
+            }
+        }
+    }
+}
+
+@media (min-width: 380px) and (max-width: 575.98px) {
+    #feedback-home {
+        padding-bottom: 0;
+        .top-slider {
+            padding-left: 0;
+            margin-bottom: 30px;
+            .inner-elements {
+                padding-bottom: 50px;
+                .feedback-test {
+                    width: auto;
+                }
+                &::after {
+                    top: -40px;
+                    right: 40px;
+                    background-size: 150px;
+                }
+            }
+        }
+        .bottom-slider {
+            .feedback-profile {
+                padding: 0 0;
+                height: 200px;
+                .profile {
+                    align-items: center;
+                    .profile-img {
+                        width: 90px;
+                        height: 90px;
+                    }
+                    .description {
+                        padding-top: 0;
+                        padding-left: 20px;
+                    }
+                }
+            }
+
+            .prevbtn {
+                top: 90px;
+                right: 100px;
+                width: 35px;
+            }
+            .nextbtn {
+                top: 90px;
+                right: 30px;
+                width: 35px;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #feedback-home {
+        padding-bottom: 0;
+        .top-slider {
+            padding-left: 0;
+            margin-bottom: 30px;
+            .inner-elements {
+                padding-bottom: 50px;
+                .feedback-test {
+                    width: auto;
+                }
+                &::after {
+                    top: -40px;
+                    right: 40px;
+                    background-size: 150px;
+                }
+            }
+
+        }
+
+        .bottom-slider {
+            .feedback-profile {
+                padding: 0 0;
+                height: 150px;
+                .profile {
+                    align-items: center;
+                    .profile-img {
+                        width: 90px;
+                        height: 90px;
+
+                    }
+                    .description {
+                        padding-top: 0;
+                        padding-left: 20px;
+                    }
+
+                }
+            }
+            .prevbtn {
+                top: 20px;
+                right: 110px;
+                width: 35px;
+            }
+            .nextbtn {
+                top: 20px;
+                right: 30px;
+                width: 35px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #feedback-home {
+        padding-bottom: 40px;
+        padding-top: 40px;
+        .top-slider {
+            padding-left: 0;
+            margin-bottom: 30px;
+
+            .inner-elements {
+                padding-bottom: 50px;
+
+                .feedback-test {
+                    width: 625px;
+                }
+
+                &::after {
+                    top: -50px;
+                    right: 0px;
+                    background-size: 150px;
+                }
+            }
+
+        }
+
+        .bottom-slider {
+            .feedback-profile {
+                padding: 0 0;
+                height: 150px;
+
+                .profile {
+                    align-items: center;
+
+                    .profile-img {
+                        width: 90px;
+                        height: 90px;
+
+                    }
+
+                    .description {
+                        padding-top: 0;
+                        padding-left: 20px;
+                    }
+
+                }
+            }
+
+            .prevbtn {
+                top: 20px;
+                right: 110px;
+                width: 35px;
+            }
+
+            .nextbtn {
+                top: 20px;
+                right: 30px;
+                width: 35px;
+            }
+        }
+
+
+    }
+}
+
+#feedback-home {
+    padding-bottom: 120px;
+
+    .top-slider {
+        position: relative;
+        padding-left: 110px;
+        margin-bottom: 60px;
+
+
+        .inner-elements {
+            padding-bottom: 50px;
+
+            .feedback-test {
+                color: $color0;
+                width: 1265px;
+                position: relative;
+                z-index: 1;
+
+
+            }
+
+            &::after {
+                background: url(../images/homepage/qoute.svg) no-repeat right;
+                width: 282px;
+                height: 234px;
+                position: absolute;
+                top: 0;
+                right: 110px;
+                content: '';
+            }
+        }
+
+    }
+
+    .bottom-slider {
+        .feedback-profile {
+            padding: 0 110px;
+            height: 200px;
+
+
+
+
+            .profile {
+
+                display: flex;
+
+
+                .profile-img {
+                    width: 170px;
+                    height: 170px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .description {
+                    padding-top: 45px;
+                    padding-left: 60px;
+
+                    h5 {
+                        color: $color0;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+
+
+
+        }
+
+        .prevbtn {
+            position: absolute;
+            top: 80px;
+            right: 200px;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .nextbtn {
+            position: absolute;
+            top: 80px;
+            right: 100px;
+            z-index: 1;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 379.98px) {
+    #feedback-home {
+        padding-bottom: 0;
+
+        .top-slider {
+            padding-left: 0;
+            margin-bottom: 30px;
+
+            .inner-elements {
+                padding-bottom: 50px;
+
+                .feedback-test {
+                    width: auto;
+                }
+
+                &::after {
+                    top: -40px;
+                    right: 40px;
+                    background-size: 150px;
+                }
+            }
+
+        }
+
+        .bottom-slider {
+            .feedback-profile {
+                padding: 0 0;
+                height: 200px;
+
+                .profile {
+                    align-items: center;
+
+                    .profile-img {
+                        width: 90px;
+                        height: 90px;
+
+                    }
+
+                    .description {
+                        padding-top: 0;
+                        padding-left: 20px;
+                    }
+
+                }
+            }
+
+            .prevbtn {
+                top: 130px;
+                right: 200px;
+                width: 35px;
+            }
+
+            .nextbtn {
+                top: 130px;
+                right: 100px;
+                width: 35px;
+            }
+        }
+
+
+    }
+}
+
+@media (min-width: 380px) and (max-width: 575.98px) {
+    #feedback-home {
+        padding-bottom: 0;
+
+        .top-slider {
+            padding-left: 0;
+            margin-bottom: 30px;
+
+            .inner-elements {
+                padding-bottom: 50px;
+
+                .feedback-test {
+                    width: auto;
+                }
+
+                &::after {
+                    top: -40px;
+                    right: 40px;
+                    background-size: 150px;
+                }
+            }
+
+        }
+
+        .bottom-slider {
+            .feedback-profile {
+                padding: 0 0;
+                height: 200px;
+
+                .profile {
+                    align-items: center;
+
+                    .profile-img {
+                        width: 90px;
+                        height: 90px;
+
+                    }
+
+                    .description {
+                        padding-top: 0;
+                        padding-left: 20px;
+                    }
+
+                }
+            }
+
+            .prevbtn {
+                top: 90px;
+                right: 100px;
+                width: 35px;
+            }
+
+            .nextbtn {
+                top: 90px;
+                right: 30px;
+                width: 35px;
+            }
+        }
+
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #feedback-home {
+        padding-bottom: 0;
+
+        .top-slider {
+            padding-left: 0;
+            margin-bottom: 30px;
+
+            .inner-elements {
+                padding-bottom: 50px;
+
+                .feedback-test {
+                    width: auto;
+                }
+
+                &::after {
+                    top: -40px;
+                    right: 40px;
+                    background-size: 150px;
+                }
+            }
+
+        }
+
+        .bottom-slider {
+            .feedback-profile {
+                padding: 0 0;
+                height: 150px;
+
+                .profile {
+                    align-items: center;
+
+                    .profile-img {
+                        width: 90px;
+                        height: 90px;
+
+                    }
+
+                    .description {
+                        padding-top: 0;
+                        padding-left: 20px;
+                    }
+
+                }
+            }
+
+            .prevbtn {
+                top: 20px;
+                right: 110px;
+                width: 35px;
+            }
+
+            .nextbtn {
+                top: 20px;
+                right: 30px;
+                width: 35px;
+            }
+        }
+
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #feedback-home {
+        padding-bottom: 40px;
+        padding-top: 40px;
+
+        .top-slider {
+            padding-left: 0;
+            margin-bottom: 30px;
+
+            .inner-elements {
+                padding-bottom: 50px;
+
+                .feedback-test {
+                    width: 625px;
+                }
+
+                &::after {
+                    top: -50px;
+                    right: 0px;
+                    background-size: 150px;
+                }
+            }
+
+        }
+
+        .bottom-slider {
+            .feedback-profile {
+                padding: 0 0;
+                height: 150px;
+
+                .profile {
+                    align-items: center;
+
+                    .profile-img {
+                        width: 90px;
+                        height: 90px;
+
+                    }
+
+                    .description {
+                        padding-top: 0;
+                        padding-left: 20px;
+                    }
+
+                }
+            }
+
+            .prevbtn {
+                top: 20px;
+                right: 110px;
+                width: 35px;
+            }
+
+            .nextbtn {
+                top: 20px;
+                right: 30px;
+                width: 35px;
+            }
+        }
+
+
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #feedback-home {
+        padding-bottom: 40px;
+        padding-top: 40px;
+
+        .top-slider {
+            padding-left: 0;
+            margin-bottom: 30px;
+
+            .inner-elements {
+                padding-bottom: 50px;
+
+                .feedback-test {
+                    width: 875px;
+
+                }
+
+                &::after {
+                    top: -50px;
+                    right: 0px;
+                    background-size: 150px;
+                }
+            }
+
+        }
+
+        .bottom-slider {
+            .feedback-profile {
+                padding: 0 0;
+                height: 150px;
+
+                .profile {
+                    align-items: center;
+
+                    .profile-img {
+                        width: 90px;
+                        height: 90px;
+
+                    }
+
+                    .description {
+                        padding-top: 0;
+                        padding-left: 20px;
+                    }
+
+                }
+            }
+
+            .prevbtn {
+                top: 20px;
+                right: 110px;
+                width: 35px;
+            }
+
+            .nextbtn {
+                top: 20px;
+                right: 30px;
+                width: 35px;
+            }
+        }
+
+
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #feedback-home {
+        padding-bottom: 40px;
+        padding-top: 40px;
+
+        .top-slider {
+            padding-left: 0;
+            margin-bottom: 30px;
+
+            .inner-elements {
+                padding-bottom: 50px;
+
+                .feedback-test {
+                    width: 1030px;
+                    padding-left: 30px;
+
+                }
+
+                &::after {
+                    position: absolute;
+                    top: -35px;
+                    right: 30px;
+                    background-size: 180px;
+                }
+
+            }
+
+        }
+
+        .bottom-slider {
+            .feedback-profile {
+                padding: 0 30px;
+                height: 150px;
+
+
+                .profile {
+                    align-items: center;
+
+                    .profile-img {
+                        width: 90px;
+                        height: 90px;
+
+                    }
+
+                    .description {
+                        padding-top: 0;
+                        padding-left: 20px;
+                    }
+
+                }
+            }
+
+            .prevbtn {
+                top: 20px;
+                right: 110px;
+                width: 35px;
+            }
+
+            .nextbtn {
+                top: 20px;
+                right: 30px;
+                width: 35px;
+            }
+        }
+
+
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1799.98px) {
+    #feedback-home {
+        padding-bottom: 40px;
+        padding-top: 40px;
+
+        .top-slider {
+            padding-left: 0;
+            margin-bottom: 30px;
+
+            .inner-elements {
+                padding-bottom: 50px;
+
+                .feedback-test {
+                    width: 1205px;
+                    padding-left: 60px;
+
+                }
+
+                &::after {
+                    position: absolute;
+                    top: -35px;
+                    right: 60px;
+                    background-size: 180px;
+                }
+
+            }
+
+        }
+
+        .bottom-slider {
+            .feedback-profile {
+                padding: 0 60px;
+                height: 150px;
+
+
+                .profile {
+                    align-items: center;
+
+                    .profile-img {
+                        width: 90px;
+                        height: 90px;
+
+                    }
+
+                    .description {
+                        padding-top: 0;
+                        padding-left: 20px;
+                    }
+
+                }
+            }
+
+            .prevbtn {
+                top: 20px;
+                right: 110px;
+                width: 35px;
+            }
+
+            .nextbtn {
+                top: 20px;
+                right: 30px;
+                width: 35px;
+            }
+        }
+
+
+    }
+}

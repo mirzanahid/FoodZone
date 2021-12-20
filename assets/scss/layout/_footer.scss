@@ -1,0 +1,461 @@
+
+@import "../layout/forms";
+
+
+
+footer{
+    padding-top: 130px;
+   
+    background: $color2;
+    h4{
+        margin-bottom: 60px
+        
+
+    }
+    .foot-logo{
+        width: 188px;
+        height: 168px;
+        margin-top: 50px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .footContact{
+       
+        a{
+            display: block;
+            &:hover{
+                color: $color1;
+            }
+        }
+        p{
+            margin-top: 30px;
+        }
+    }
+    .subscription{
+             input{
+                 width: 523px;
+             }
+             button{
+                 margin-left: 30px;
+                 margin-top: 5px;
+                 
+             }
+            span{
+                margin-top: 15px;
+                display: inline-block;
+            
+        }
+    }
+    .footer_bottom{
+        border-top: 1px dashed $color1;
+         padding-top: 60px;
+         padding-bottom: 75px;
+         margin-top: 130px;
+     .main{
+         justify-content: space-between;
+         align-items: center;
+        .social{
+            ul{
+                margin-bottom: 0;
+                li{
+                    display: inline-block;
+                    margin-right: 30px;
+                }
+            }
+        }
+     }
+    }
+    
+}
+
+
+
+//responsive start
+
+@media (min-width: 320px) and (max-width: 575.98px){
+
+footer{
+    padding-top: 20px;
+    h4{
+        margin-bottom: 20px;
+    }
+    .foot-logo {
+        width: 120px !important;
+        height: 210px !important;
+        margin-top: 0;
+    }
+    .footContact{
+   
+     
+        p{
+            margin-top: 10px !important; 
+        }
+    }
+    .subscription{
+        h4{
+            margin-top: 40px;
+        }
+        .main{
+            flex-direction: column;
+        }
+        .inputfield{
+          width: 290px;
+          padding: 15px 30px;
+        }
+        button{
+            margin-left: 0 !important;
+            margin-top: 25px !important;
+        }
+    }
+
+  .footer_bottom {
+
+        padding-top: 40px;
+        padding-bottom: 30px;
+        margin-top: 60px;
+        .main{
+            flex-direction: column;
+            .social{
+                margin-top: 30px;
+                ul{
+                    padding-left: 0;
+                    li{
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+       
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+
+footer{
+    padding-top: 40px;
+    h4{
+        margin-bottom: 20px;
+    }
+    .foot-logo {
+        width: 120px !important;
+        height: 210px !important;
+        margin-top: 0;
+    }
+    .footContact{
+           margin-top: 50px;
+           padding-left: 50px;
+     
+        p{
+            margin-top: 10px !important; 
+        }
+    }
+    .subscription{
+        h4{
+            margin-top: 40px;
+        }
+        .main{
+            align-items: center;
+            justify-content: space-between;
+            .inputfield{
+                width: 270px;
+                padding: 15px 30px;
+              }
+            .btn-div{
+                button{
+                    margin-left: 0 !important;
+                    margin-top: 0 !important;
+                }
+            }
+        }
+        
+        
+    }
+
+  .footer_bottom {
+
+        padding-top: 40px;
+        padding-bottom: 30px;
+        margin-top: 60px;
+        .main{
+    
+            .social{
+                margin-top: 0;
+                ul{
+                    padding-left: 0;
+                    li{
+                        margin-right: 0;
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+       
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+
+footer{
+    padding-top: 40px;
+    h4{
+        margin-bottom: 20px;
+    }
+    .foot-logo {
+        width: 120px !important;
+        height: 210px !important;
+        margin-top: 0;
+    }
+    .footContact{
+           margin-top: 50px;
+           padding-left: 50px;
+     
+        p{
+            margin-top: 10px !important; 
+        }
+    }
+    .subscription{
+        h4{
+            margin-top: 40px;
+        }
+        .main{
+            align-items: center;
+            flex-direction: column;
+            .inputfield{
+                width: 270px;
+                padding: 15px 30px;
+              }
+            .btn-div{
+                width: 191px;
+                margin-right: auto;
+                button{
+                    margin-left: 0 !important;
+                    margin-top: 20px !important;
+                }
+            }
+        }
+        
+        
+    }
+
+  .footer_bottom {
+
+        padding-top: 40px;
+        padding-bottom: 30px;
+        margin-top: 60px;
+        .main{
+    
+            .social{
+                margin-top: 0;
+                ul{
+                    padding-left: 0;
+                    li{
+                        margin-right: 0;
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+       
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+footer{
+    padding-top: 40px;
+    h4{
+        margin-bottom: 20px;
+    }
+    .foot-logo {
+        width: 120px !important;
+        height: 210px !important;
+        margin-top: 0;
+    }
+    .footContact{
+           margin-top: 50px;
+           padding-left: 50px;
+     
+        p{
+            margin-top: 10px !important; 
+        }
+    }
+    .subscription{
+        h4{
+            margin-top: 40px;
+        }
+        .main{
+            align-items: center;
+            
+
+            .inputfield{
+                width: 270px;
+                padding: 15px 30px;
+              }
+            .btn-div{
+
+                button{
+                    margin-left: 20px !important;
+                    margin-top: 0px !important;
+                }
+            }
+        }
+        
+        
+    }
+
+  .footer_bottom {
+
+        padding-top: 40px;
+        padding-bottom: 30px;
+        margin-top: 60px;
+        .main{
+    
+            .social{
+                margin-top: 0;
+                ul{
+                    padding-left: 0;
+                    li{
+                        margin-right: 0;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+       
+}
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+footer{
+    padding-top: 40px;
+    h4{
+        margin-bottom: 30px;
+    }
+    .foot-logo {
+        width: 140px !important;
+        height: 210px !important;
+        margin-top: 40px;
+    }
+    .footContact{
+           margin-top: 50px;
+           padding-left: 0px;
+     
+        p{
+            margin-top: 20px !important; 
+        }
+    }
+    .subscription{
+        h4{
+            margin-top: 40px;
+        }
+        .main{
+            align-items: center;
+            
+
+            .inputfield{
+                width: 325px;
+                padding: 20px 30px;
+              }
+            .btn-div{
+
+                button{
+                    margin-left: 20px !important;
+                    margin-top: 0px !important;
+                }
+            }
+        }
+        
+        
+    }
+
+  .footer_bottom {
+
+        padding-top: 40px;
+        padding-bottom: 30px;
+        margin-top: 60px;
+        .main{
+    
+            .social{
+                margin-top: 0;
+                ul{
+                    padding-left: 0;
+                    li{
+                        margin-right: 0;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+       
+}
+@media (min-width: 1400px) and (max-width: 1799.98px){
+
+footer{
+    padding-top: 40px;
+    h4{
+        margin-bottom: 30px;
+    }
+    .foot-logo {
+        width: 140px !important;
+        height: 210px !important;
+        margin-top: 40px;
+    }
+    .footContact{
+           margin-top: 50px;
+           padding-left: 0px;
+     
+        p{
+            margin-top: 20px !important; 
+        }
+    }
+    .subscription{
+        h4{
+            margin-top: 40px;
+        }
+        .main{
+            align-items: center;
+            
+
+            .inputfield{
+                width: 325px;
+                padding: 20px 30px;
+              }
+            .btn-div{
+
+                button{
+                    margin-left: 20px !important;
+                    margin-top: 0px !important;
+                }
+            }
+        }
+        
+        
+    }
+
+  .footer_bottom {
+
+        padding-top: 40px;
+        padding-bottom: 30px;
+        margin-top: 60px;
+        .main{
+    
+            .social{
+                margin-top: 0;
+                ul{
+                    padding-left: 0;
+                    li{
+                        margin-right: 0;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+       
+}

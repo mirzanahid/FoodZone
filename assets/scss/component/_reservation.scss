@@ -1,0 +1,695 @@
+@import "../layout/forms";
+@import "../abstracts/mixin";
+@import "../abstracts/variables";
+
+#reservation {
+    background: $color5;
+    padding: 230px 0;
+
+    .title {
+        text-align: center;
+        margin-bottom: 130px;
+        h2{
+            margin-bottom: 10px;
+        }
+    }
+
+    .reservation-form {
+        display: flex;
+        justify-content: space-between;
+
+
+        .dateinput {
+            width: 516px;
+        }
+
+        .selectform {
+            width: 516px;
+        }
+    }
+
+    .reserve-submit {
+        text-align: center;
+        margin-top: 130px;
+    }
+
+    .contact-reservation {
+        position: relative;
+
+        &::after {
+            background: url(../images/contact/Mint.svg) no-repeat;
+            width: 511px;
+            height: 346px;
+            position: absolute;
+            top: -175px;
+            left: -15px;
+            content: '';
+        }
+
+        input {
+            @include placeholder {
+                color: $color0 !important;
+            }
+        }
+
+        .con-res-titile {
+            text-align: left;
+            padding-left: 300px;
+        }
+
+        .contact-formname {
+
+            input {
+                width: 799px;
+            }
+
+            margin-top: 45px;
+            margin-bottom: 45px;
+        }
+
+        .contact-formemail {
+            input {
+                width: 100%;
+            }
+
+        }
+
+        .contact-forphone {
+            input {
+                width: 100%;
+            }
+
+            margin-top: 45px;
+            margin-bottom: 45px;
+        }
+
+        .contact-formdate {
+            input {
+                width: 799px;
+
+            }
+
+            select {
+                width: 799px;
+            }
+        }
+
+        .contact-formperson {
+            select {
+                width: 100%;
+            }
+
+            margin-top: 45px;
+
+        }
+
+    }
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    #reservation {
+        padding: 60px 0;
+
+        .title {
+            margin-bottom: 100px;
+        }
+        .reservation-form {
+            flex-direction: column;
+
+
+            .dateinput {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .selectform {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        .reserve-submit {
+            margin-top: 60px;
+        }
+
+        .contact-reservation {
+            position: relative;
+    
+            &::after {
+                width: 160px;
+                height: 120px;
+                top: -40px;
+                left: -5px;
+                background-size: 150px;     
+            }
+            
+    
+            input {
+                @include placeholder {
+                    color: $color0 !important;
+                }
+            }
+    
+            .con-res-titile {
+                text-align: left;
+                padding-left: 0;
+            }
+    
+            .contact-formname {
+                flex-direction: column;
+                input {
+                    width: auto;
+                    margin-top: 30px;
+                }
+    
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+    
+            .contact-formemail {
+                input {
+                    width: 100%;
+                }
+    
+            }
+    
+            .contact-forphone {
+                input {
+                    width: 100%;
+                }
+    
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+    
+            .contact-formdate {
+                flex-direction: column;
+                input {
+                    width: auto;
+
+    
+                }
+    
+                select {
+                    width: auto;
+                    margin-top: 30px;
+                }
+            }
+    
+            .contact-formperson {
+                select {
+                    width: 100%;
+                }
+    
+                margin-top: 30px;
+    
+            }
+    
+        }
+
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #reservation {
+        padding: 60px 0;
+
+        .title {
+            margin-bottom: 80px;
+        }
+        .reservation-form {
+            flex-direction: column;
+
+
+            .dateinput {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .selectform {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        .reserve-submit {
+            margin-top: 60px;
+        }
+        .contact-reservation {
+    
+            &::after {
+                width: 210px;
+                height: 150px;
+                top: -55px;
+                left: 15px;
+                background-size: 200px;
+            }
+    
+           
+    
+            .con-res-titile {
+                text-align: left;
+                padding-left: 120px;
+            }
+    
+            .contact-formname {
+    
+                input {
+                    width: 250px;
+                }
+    
+                margin-top: 45px;
+                margin-bottom: 45px;
+            }
+    
+            .contact-formemail {
+                input {
+                    width: 100%;
+                }
+    
+            }
+    
+            .contact-forphone {
+                input {
+                    width: 100%;
+                }
+    
+                margin-top: 45px;
+                margin-bottom: 45px;
+            }
+    
+            .contact-formdate {
+                input {
+                    width: 250px;
+    
+                }
+    
+                select {
+                    width: 250px;
+                }
+            }
+    
+            .contact-formperson {
+                select {
+                    width: 100%;
+                }
+    
+                margin-top: 45px;
+    
+            }
+    
+        }
+
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #reservation {
+        padding: 100px 0;
+
+        .title {
+            margin-bottom: 80px;
+        }
+        .reservation-form {
+ 
+
+
+            .dateinput {
+                width: 225px;
+                margin-bottom: 20px;
+            }
+
+            .selectform {
+                width: 225px;
+                margin-bottom: 20px;
+                background-position-x: 90%;
+                background-size: 24px 16px;
+            }
+        }
+
+        .reserve-submit {
+            margin-top: 60px;
+        }
+
+        .contact-reservation {
+    
+            &::after {
+                width: 300px;
+                height: 210px;
+                top: -90px;
+                left: -50px;
+                background-size: 290px;
+            }
+    
+           
+    
+            .con-res-titile {
+                text-align: left;
+                padding-left: 120px;
+            }
+    
+            .contact-formname {
+    
+                input {
+                    width: 335px;
+                }
+    
+                margin-top: 45px;
+                margin-bottom: 45px;
+            }
+    
+            .contact-formemail {
+                input {
+                    width: 100%;
+                }
+    
+            }
+    
+            .contact-forphone {
+                input {
+                    width: 100%;
+                }
+    
+                margin-top: 45px;
+                margin-bottom: 45px;
+            }
+    
+            .contact-formdate {
+                input {
+                    width: 335px;
+    
+                }
+    
+                select {
+                    width: 335px;
+                }
+            }
+    
+            .contact-formperson {
+                select {
+                    width: 100%;
+                }
+    
+                margin-top: 45px;
+    
+            }
+    
+        }
+
+        
+
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #reservation {
+        padding: 100px 0;
+
+        .title {
+            margin-bottom: 80px;
+        }
+        .reservation-form {
+ 
+
+
+            .dateinput {
+                width: 300px;
+                margin-bottom: 20px;
+            }
+
+            .selectform {
+                width: 300px;
+                margin-bottom: 20px;
+                background-position-x: 90%;
+                background-size: 24px 16px;
+            }
+        }
+
+        .reserve-submit {
+            margin-top: 60px;
+        }
+        .contact-reservation {
+    
+            &::after {
+                width: 355px;
+                height: 245px;
+                top: -115px;
+                left: 20px;
+                background-size: 350px;
+            }
+    
+           
+    
+            .con-res-titile {
+                text-align: left;
+                padding-left: 230px;
+                margin-top: 30px;
+            }
+    
+            .contact-formname {
+    
+                input {
+                    width: 455px;
+                }
+    
+                margin-top: 45px;
+                margin-bottom: 45px;
+            }
+    
+            .contact-formemail {
+                input {
+                    width: 100%;
+                }
+    
+            }
+    
+            .contact-forphone {
+                input {
+                    width: 100%;
+                }
+    
+                margin-top: 45px;
+                margin-bottom: 45px;
+            }
+    
+            .contact-formdate {
+                input {
+                    width: 450px;
+    
+                }
+    
+                select {
+                    width: 455px;
+                }
+            }
+    
+            .contact-formperson {
+                select {
+                    width: 100%;
+                }
+    
+                margin-top: 45px;
+    
+            }
+    
+        }
+        
+
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #reservation {
+        padding: 150px 0;
+
+        .title {
+            margin-bottom: 80px;
+           
+        }
+        .reservation-form {
+ 
+
+
+            .dateinput {
+                width: 360px;
+                margin-bottom: 20px;
+            }
+
+            .selectform {
+                width: 360px;
+                margin-bottom: 20px;
+                background-position-x: 90%;
+                background-size: 24px 16px;
+            }
+        }
+
+
+        .contact-reservation {
+    
+            &::after {
+                width: 355px;
+                height: 245px;
+                top: -100px;
+                left: 20px;
+                background-size: 350px;
+            }
+    
+           
+    
+            .con-res-titile {
+                text-align: left;
+                padding-left: 230px;
+                margin-top: 30px;
+              
+            }
+    
+            .contact-formname {
+    
+                input {
+                    width: 540px;
+                }
+    
+                margin-top: 45px;
+                margin-bottom: 45px;
+            }
+    
+            .contact-formemail {
+                input {
+                    width: 100%;
+                }
+    
+            }
+    
+            .contact-forphone {
+                input {
+                    width: 100%;
+                }
+    
+                margin-top: 45px;
+                margin-bottom: 45px;
+            }
+    
+            .contact-formdate {
+                input {
+                    width: 540px;
+    
+                }
+    
+                select {
+                    width: 540px;
+                }
+            }
+    
+            .contact-formperson {
+                select {
+                    width: 100%;
+                }
+    
+                margin-top: 45px;
+    
+            }
+    
+        }
+
+       
+
+        
+
+    }
+}
+@media (min-width: 1400px) and (max-width: 1799.98px) {
+    #reservation {
+        padding: 150px 0;
+
+        .title {
+            margin-bottom: 80px;
+           
+        }
+        .reservation-form {
+ 
+
+
+            .dateinput {
+                width: 400px;
+                margin-bottom: 20px;
+            }
+
+            .selectform {
+                width: 400px;
+                margin-bottom: 20px;
+                background-position-x: 90%;
+                background-size: 24px 16px;
+            }
+        }
+
+        .contact-reservation {
+    
+            &::after {
+                width: 445px;
+                height: 300px;
+                top: -150px;
+                left: 0px;
+                background-size: 440px;
+            }
+    
+           
+    
+            .con-res-titile {
+                text-align: left;
+                padding-left: 260px;
+                margin-top: 30px;
+              
+            }
+    
+            .contact-formname {
+    
+                input {
+                    width: 630px;
+                }
+    
+                margin-top: 45px;
+                margin-bottom: 45px;
+            }
+    
+            .contact-formemail {
+                input {
+                    width: 100%;
+                }
+    
+            }
+    
+            .contact-forphone {
+                input {
+                    width: 100%;
+                }
+    
+                margin-top: 45px;
+                margin-bottom: 45px;
+            }
+    
+            .contact-formdate {
+                input {
+                    width: 630px;
+    
+                }
+    
+                select {
+                    width: 630px;
+                }
+            }
+    
+            .contact-formperson {
+                select {
+                    width: 100%;
+                }
+    
+                margin-top: 45px;
+    
+            }
+    
+        }
+
+
+        
+
+    }
+}

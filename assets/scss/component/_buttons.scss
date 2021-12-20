@@ -1,0 +1,124 @@
+@import "../abstracts/variables";
+
+
+.br-btn{
+     background: transparent;
+     border: 2px solid $color1;
+     padding: 25px 50px;
+     &:hover{
+          color: $color1;
+     }
+}
+.bg-btn{
+     background: $color3;
+     border: 0;
+     padding: 20px 45px;
+}
+
+.formbtn{
+     background: $color2;
+     border: 2px solid $color0;
+     padding: 20px 95px;
+}
+.formbtn2{
+     background: $color3;
+     border: 2px solid $color0;
+     padding: 20px 95px;
+}
+
+.map-btn{
+     
+     color: $color0 !important;
+     background: transparent;
+     border: 2px solid $color0;
+     padding: 20px 50px;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px){
+     .bg-btn {
+          padding: 15px 40px;
+     }
+     .formbtn{
+
+          padding: 18px 60px;
+     }
+     .formbtn2{
+
+          padding: 18px 60px;
+     }
+     .modal-btn{
+          text-align: center;
+             padding: 20px 20px;
+         
+     }
+     .map-btn{
+     
+        
+          padding: 20px 30px;
+     }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+     .bg-btn {
+          padding: 15px 40px;
+     }
+     .formbtn{
+
+          padding: 18px 60px;
+     }
+     .formbtn2{
+
+          padding: 18px 60px;
+     }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+     .br-btn{
+       
+          padding: 10px 35px;
+     }
+     .bg-btn {
+          padding: 15px 40px;
+     }
+     .formbtn{
+
+          padding: 18px 60px;
+     }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+     .br-btn{
+       
+          padding: 10px 35px;
+     }
+     .bg-btn {
+          padding: 15px 40px;
+     }
+     .formbtn{
+
+          padding: 18px 60px;
+     }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px){
+     .br-btn{
+       
+          padding: 15px 40px;
+     }
+     .bg-btn {
+          padding: 12px 24px;
+     }
+     .formbtn{
+
+          padding: 18px 80px;
+     }
+}
+@media (min-width: 1400px) and (max-width: 1799.98px){
+     .br-btn{
+       
+          padding: 15px 40px;
+     }
+     .bg-btn {
+          padding: 12px 24px;
+     }
+     .formbtn{
+
+          padding: 18px 80px;
+     }
+}

@@ -1,0 +1,442 @@
+@import "../component/reservation";
+@import "../component/buttons";
+
+
+#contact-info {
+    padding-top: 270px;
+    padding-bottom: 180px;
+
+
+    .info-top {
+        .info-img {
+            width: 792px;
+            height: 593px;
+            position: relative;
+            z-index: 1;
+
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            &::after {
+                background: url(../images/contact/Orange.svg) no-repeat;
+                width: 446px;
+                height: 391px;
+                position: absolute;
+                top: -170px;
+                left: 75%;
+                content: '';
+                z-index: -1;
+
+            }
+        }
+
+        .info-text {
+            padding-left: 200px;
+            margin-top: 360px;
+
+            p {
+                color: $color0;
+
+                a {
+                    color: $color4;
+                }
+            }
+        }
+    }
+
+    .info-bottom {
+        margin-top: 145px;
+
+        .address-texts {
+            margin-top: 400px;
+            width: 740px;
+
+            p {
+                color: $color0;
+            }
+
+            a {
+                margin-top: 50px;
+            }
+        }
+
+        .address-img {
+            width: 792px;
+            height: 990px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    #contact-info {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .info-top {
+            flex-direction: column;
+
+            .info-img {
+                width: auto;
+                height: auto;
+
+                &::after {
+                    width: 446px;
+                    height: 391px;
+                    position: absolute;
+                    top: -55px;
+                    left: 75%;
+                    z-index: -1;
+                    background-size: 150px;
+
+                }
+            }
+
+            .info-text {
+                padding-left: 0;
+                margin-top: 60px;
+            }
+        }
+
+        .info-bottom {
+            margin-top: 100px;
+            flex-direction: column-reverse;
+
+            .address-texts {
+                margin-top: 60px;
+                width: auto;
+
+                p {
+                    color: $color0;
+
+                }
+
+                a {
+                    margin-top: 50px;
+                }
+            }
+
+            .address-img {
+                width: auto;
+                height: auto;
+
+
+            }
+        }
+
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #contact-info {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .info-top {
+            flex-direction: column;
+
+            .info-img {
+                width: auto;
+                height: auto;
+
+                &::after {
+                    width: 446px;
+                    height: 391px;
+                    position: absolute;
+                    top: -55px;
+                    left: 89%;
+                    z-index: -1;
+                    background-size: 150px;
+
+                }
+            }
+
+            .info-text {
+                padding-left: 0;
+                margin-top: 60px;
+            }
+        }
+
+        .info-bottom {
+            margin-top: 100px;
+            flex-direction: column-reverse;
+
+            .address-texts {
+                margin-top: 60px;
+                width: auto;
+
+                p {
+                    color: $color0;
+
+                }
+
+                a {
+                    margin-top: 50px;
+                }
+            }
+
+            .address-img {
+                width: auto;
+                height: auto;
+
+
+            }
+        }
+
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #contact-info {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .info-top {
+
+            .info-img {
+                width: 470px;
+                height: auto;
+
+                &::after {
+                    width: 446px;
+                    height: 391px;
+                    position: absolute;
+                    top: -55px;
+                    left: 85%;
+                    z-index: -1;
+                    background-size: 150px;
+
+                }
+            }
+
+            .info-text {
+                padding-left: 30px;
+                margin-top: 60px;
+            }
+        }
+
+        .info-bottom {
+            margin-top: 100px;
+
+            .address-texts {
+                margin-top: 60px;
+                width: auto;
+                padding-right: 30px;
+
+                p {
+                    color: $color0;
+
+                }
+
+                a {
+                    margin-top: 50px;
+                }
+            }
+
+            .address-img {
+                width: 625px;
+                height: auto;
+
+
+            }
+        }
+
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #contact-info {
+        padding-top: 150px;
+        padding-bottom: 100px;
+
+        .info-top {
+
+            .info-img {
+                width: 470px;
+                height: auto;
+
+                &::after {
+                    width: 446px;
+                    height: 391px;
+                    position: absolute;
+                    top: -95px;
+                    left: 80%;
+                    z-index: -1;
+                    background-size: 250px;
+
+                }
+            }
+
+            .info-text {
+                padding-left: 90px;
+                margin-top: 200px;
+            }
+        }
+
+        .info-bottom {
+            margin-top: 100px;
+
+            .address-texts {
+                margin-top: 170px;
+                width: auto;
+                padding-right: 30px;
+
+                p {
+                    color: $color0;
+
+                }
+
+                a {
+                    margin-top: 50px;
+                }
+            }
+
+            .address-img {
+                width: 625px;
+                height: auto;
+
+
+            }
+        }
+
+    }
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #contact-info {
+        padding-top: 150px;
+        padding-bottom: 100px;
+
+        .info-top {
+
+            .info-img {
+                width: 470px;
+                height: auto;
+
+                &::after {
+                    width: 380px;
+                    height: 290px;
+                    position: absolute;
+                    top: -125px;
+                    left: 75%;
+                    z-index: -1;
+                    background-size: 325px;
+
+                }
+
+            }
+
+            .info-text {
+                padding-left: 145px;
+                margin-top: 190px;
+            }
+        }
+
+        .info-bottom {
+            margin-top: 100px;
+
+            .address-texts {
+                margin-top: 220px;
+                width: auto;
+                padding-right: 30px;
+
+                p {
+                    color: $color0;
+
+                }
+
+                a {
+                    margin-top: 50px;
+                }
+            }
+
+            .address-img {
+                width: 700px;
+                height: auto;
+
+
+            }
+        }
+
+    }
+
+
+}
+
+@media (min-width: 1400px) and (max-width: 1799.98px) {
+    #contact-info {
+        padding-top: 180px;
+        padding-bottom: 100px;
+
+        .info-top {
+
+            .info-img {
+                width: 625px;
+                height: auto;
+
+                &::after {
+                    width: 404px;
+                    height: 350px;
+                    position: absolute;
+                    top: -145px;
+                    left: 77%;
+                    z-index: -1;
+                    background-size: 390px;
+
+                }
+
+
+            }
+
+            .info-text {
+                padding-left: 170px;
+                margin-top: 240px;
+            }
+        }
+
+        .info-bottom {
+            margin-top: 100px;
+
+            .address-texts {
+                margin-top: 280px;
+                width: auto;
+                padding-right: 30px;
+
+                p {
+                    color: $color0;
+
+                }
+
+                a {
+                    margin-top: 50px;
+                }
+            }
+
+            .address-img {
+                width: 700px;
+                height: auto;
+
+
+            }
+        }
+
+    }
+
+
+}

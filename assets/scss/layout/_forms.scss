@@ -1,0 +1,70 @@
+@import "../abstracts/variables";
+
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  
+  background-size: cover;
+}
+.inputfield{
+    background: transparent;
+    border: 2px solid $color1;
+    padding: 30px 40px; 
+}
+
+.dateinput{
+    background: transparent;
+    border: 2px solid $color0;
+    padding: 30px 40px;
+    color: $color0;
+}
+
+.selectform{
+  
+    background: transparent;
+    border: 2px solid $color0;
+    padding: 30px 40px;
+    color: $color0; 
+    background: url(../images/forms/Icon_angle-down.svg) no-repeat right;
+    background-size: 28px 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position-x: 95%;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 575.98px){
+    .inputfield{
+        padding: 18px 40px; 
+    }
+    
+    .dateinput{
+        padding: 18px 40px;
+
+    }
+    .selectform{
+        padding: 18px 40px;
+        background-size: 15px 10px;
+     
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .inputfield{
+        padding: 18px 40px; 
+    }
+    
+    .dateinput{
+        padding: 18px 40px;
+
+    }
+    .selectform{
+        padding: 18px 40px;
+        background-size: 15px 10px;
+       
+     
+    }
+ 
+    
+   
+}
